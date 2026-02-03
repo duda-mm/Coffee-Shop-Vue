@@ -54,7 +54,7 @@ const listaDiversos = [
 </template>
 
 <style scoped>
-/* Use os mesmos estilos da CafesView ou ajuste conforme o Figma */
+
 .page-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -84,7 +84,7 @@ const listaDiversos = [
 .decoracao-baixo {
   position: absolute;
   bottom: 0;
-  right: 0; /* Exemplo na Direita. Mude se necessário. */
+  right: 0; 
   max-width: 250px;
   z-index: -1;
 }

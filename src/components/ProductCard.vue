@@ -29,17 +29,17 @@ defineProps({
 <style scoped>
 .card {
   background-color: #F3F3F3; 
-  border-radius: 15px; /* Ajuste conforme o arredondamento do Figma */
+  border-radius: 15px; 
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  width: 280px; /* Largura fixa para ficar igual ao card do layout */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra suave */
+  width: 280px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
 }
 
 .card-image img {
   width: 100%;
-  height: 200px; /* Altura fixa da imagem */
+  height: 200px; 
   object-fit: cover;
   display: block;
 }
@@ -65,11 +65,11 @@ defineProps({
   line-height: 1.4;
 }
 
-/* --- ÁREA DO PREÇO E BOTÃO --- */
+
 .card-footer {
-  margin-top: auto; /* Empurra para o final do card */
+  margin-top: auto;
   display: flex;
-  justify-content: space-between; /* Separa preço e botão */
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -80,11 +80,11 @@ defineProps({
 }
 
 .btn-pedir {
-  background-color: #4B382A; /* Cor Marrom do layout */
+  background-color: #4B382A; 
   color: white;
   border: none;
   padding: 10px 20px;
-  border-radius: 20px; /* Borda bem redonda */
+  border-radius: 20px; 
   font-weight: bold;
   cursor: pointer;
   font-size: 0.9rem;
@@ -92,6 +92,6 @@ defineProps({
 }
 
 .btn-pedir:hover {
-  background-color: #3a2b20; /* Escurece um pouco ao passar o mouse */
+  background-color: #3a2b20; 
 }
 </style>

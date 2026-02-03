@@ -1,6 +1,4 @@
-<script setup>
-// Lógica vazia, pois é só visual
-</script>
+
 
 <template>
   <footer class="footer">
@@ -10,9 +8,9 @@
 
 <style scoped>
 .footer {
-  color: #290902; /* Bege claro */
+  color: #290902; 
   text-align: center;
-  margin-bottom: 1rem; /* Empurra o rodapé para baixo se tiver pouco conteúdo */
+  margin-bottom: 1rem; 
   font-weight: bold;
 }
 

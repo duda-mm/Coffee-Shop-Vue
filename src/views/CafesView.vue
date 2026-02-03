@@ -78,17 +78,16 @@ const listaCafes = [
   justify-content: center;
 }
 .page-container {
-  position: relative; /* OBRIGATÓRIO */
+  position: relative; 
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 20px 100px 20px; /* Padding extra embaixo pro grão não tapar o conteúdo */
+  padding: 40px 20px 100px 20px; 
 }
-
 .decoracao-baixo {
   position: absolute;
   bottom: 0;
-  left: 0; /* Se no figma for na direita, mude para 'right: 0' */
+  left: 0; 
   max-width: 250px;
-  z-index: -1; /* Fica atrás de tudo */
+  z-index: -1; 
 }
 </style>

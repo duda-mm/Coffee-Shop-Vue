@@ -8,7 +8,7 @@ import graosBaixo from '@/assets/img/background/GraoBottomHome.png'
 <template>
   <div class="home-section">
 
-    <!-- Grãos fixos na borda da viewport -->
+   
     <img :src="graosTopo" class="grao grao-topo" alt="Grãos decorativos superior" />
     <img :src="graosBaixo" class="grao grao-baixo" alt="Grãos decorativos inferior" />
 
@@ -41,37 +41,34 @@ import graosBaixo from '@/assets/img/background/GraoBottomHome.png'
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background: transparent; /* não interfere no body */
+  background: transparent; 
 }
 
-/* ── GRÃOS COLADOS NA BORDA ESQUERDA DA JANELA ── */
 .grao {
   position: fixed;
   left: 0;
   z-index: 0;
   width: 190px;          
-  max-width: 12vw;           /* relativo à largura da tela */
+  max-width: 12vw;          
   pointer-events: none;
   user-select: none;
 }
 
 .grao-topo {
   top: 0;
-  /* Se ainda sobrar 1–3px de espaço por causa de borda ou scaling: */
-  /* margin-left: -4px; */   /* descomente se necessário */
 }
 
 .grao-baixo {
   bottom: 0;
-  /* margin-left: -4px; */   /* descomente se necessário */
+
 }
 
-/* Conteúdo principal centralizado */
+
 .content-wrapper {
   width: 100%;
   max-width: 1240px;
   margin: 0 auto;
-  padding: 0 5vw;            /* padding relativo = mais adaptável */
+  padding: 0 5vw;            
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -137,7 +134,7 @@ h1 {
 
 
 
-/* ── MOBILE ── */
+
 @media (max-width: 950px) {
   .content-wrapper {
     flex-direction: column-reverse;
@@ -168,13 +165,12 @@ h1 {
 
   .grao {
     max-width: 160px;
-    opacity: 0.45;           /* menos intrusivo em telas pequenas */
+    opacity: 0.45;         
   }
 
 }
 </style>
 
-<!-- Mantenha isso no arquivo global ou em App.vue se ainda não tiver -->
 <style>
 html, body, #app {
   margin: 0;

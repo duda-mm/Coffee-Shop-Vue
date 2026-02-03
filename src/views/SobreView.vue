@@ -21,18 +21,18 @@ import imgSobre from '@/assets/img/produtos/CafeConjunto.png'
 <style scoped>
 .sobre-wrapper {
   display: flex;
-  align-items: center; /* Alinha verticalmente no centro */
-  gap: 50px; /* Espaço entre texto e imagem */
+  align-items: center; 
+  gap: 50px; 
   padding: 60px 0;
 }
 
 .col-img, .col-text {
-  flex: 1; /* Divide a tela meio a meio */
+  flex: 1; 
 }
 
 .col-img img {
   width: 100%;
-  border-radius: 20px; /* Se tiver borda arredondada */
+  border-radius: 20px; 
 }
 
 h2 {
@@ -48,7 +48,7 @@ p {
   margin-bottom: 15px;
 }
 
-/* Celular */
+
 @media (max-width: 768px) {
   .sobre-wrapper {
     flex-direction: column;

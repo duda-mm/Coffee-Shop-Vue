@@ -20,58 +20,55 @@ import { RouterLink } from 'vue-router'
 </template>
 
 <style scoped>
-/* 1. Container externo para centralizar a cápsula na tela */
 .navbar-wrapper {
   width: 100%;
-  padding-top: 15px; /* Espaço do topo da página */
+  padding-top: 15px; 
   display: flex;
-  justify-content: center; /* Centraliza a barra no meio da tela */
+  justify-content: center; 
 }
 
-/* 2. A barra em formato de cápsula (Bege) */
 .navbar-capsula {
-  background-color: #D0CBBF; /* Cor do fundo geral */
-  border-radius: 50px; /* Borda bem redonda */
-  padding: 5px 10px 5px 40px; /* Padding ajustado: mais espaço na esquerda, menos na direita pro botão caber */
+  background-color: #D0CBBF; 
+  border-radius: 50px;
+  padding: 5px 10px 5px 40px; 
   display: flex;
   align-items: center;
-  gap: 30px; /* Espaço entre os textos */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Sombra leve opcional */
+  gap: 30px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
 }
 
-/* 3. Estilo dos Links Normais */
 .nav-link {
   text-decoration: none;
-  font-family: 'Alata', sans-serif; /* Fonte pedida */
+  font-family: 'Alata', sans-serif; 
   font-size: 1.1rem;
-  color: #4E2C09; /* Marrom escuro */
+  color: #4E2C09; 
   text-transform: uppercase;
-  font-weight: 400; /* Alata já é um pouco grossa */
+  font-weight: 400; 
   transition: opacity 0.3s;
 }
 
 .nav-link:hover {
-  opacity: 0.7; /* Efeito suave ao passar o mouse */
+  opacity: 0.7;
 }
 
-/* 4. Estilo Específico do Botão Contato */
+
 .btn-contato {
-  background-color: #4E2C09; /* Fundo Marrom */
-  color: #D0CBBF !important; /* Texto Bege (inverso) - !important garante que sobrescreva a cor padrão */
-  padding: 12px 35px; /* Tamanho do botão */
-  border-radius: 40px; /* Borda redonda do botão */
+  background-color: #4E2C09; 
+  color: #D0CBBF !important; 
+  padding: 12px 35px;
+  border-radius: 40px; 
   display: inline-block;
-  margin-left: 10px; /* Um espacinho extra antes do botão */
+  margin-left: 10px; 
 }
 
 
 
 .btn-contato:hover {
-  background-color: #361e06; /* Escurece um pouco no hover */
+  background-color: #361e06; 
   opacity: 1;
 }
 
-/* Responsividade simples para telas pequenas */
+
 @media (max-width: 768px) {
   .navbar-capsula {
     flex-direction: column;

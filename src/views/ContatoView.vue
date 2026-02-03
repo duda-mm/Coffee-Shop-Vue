@@ -1,7 +1,5 @@
 <script setup>
 import { ref } from 'vue'
-// Importe a imagem do café que fica ao lado
-// Certifique-se de ter o arquivo correto na pasta
 import imgLateral from '@/assets/img/produtos/FotoCafe.png' 
 import graoBaixoContato from '@/assets/img/background/GraosBottomContato.png'
 
@@ -56,17 +54,17 @@ function enviar() {
 
 .contato-card {
   display: flex;
-  background-color: #fff; /* Fundo branco do cartão */
+  background-color: #fff; 
   max-width: 1000px;
   width: 100%;
-  border-radius: 20px; /* Arredondamento conforme o layout */
-  overflow: hidden; /* Para a imagem respeitar o arredondamento */
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Sombra leve */
+  border-radius: 20px; 
+  overflow: hidden; 
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
 }
 
-/* --- LADO DO CONTEÚDO --- */
+
 .content-side {
-  flex: 1; /* Ocupa metade */
+  flex: 1; 
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -84,7 +82,7 @@ h2 {
   color: #666;
 }
 
-/* Estilo do Formulário igual ao pedido anteriormente */
+
 label {
   display: block;
   margin-bottom: 5px;
@@ -112,39 +110,37 @@ button {
   width: 100%;
 }
 
-/* --- LADO DA IMAGEM --- */
+
 .image-side {
-  flex: 1; /* Ocupa a outra metade */
+  flex: 1; 
   background-color: #eee;
 }
 
 .image-side img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Faz a imagem preencher todo o espaço sem deformar */
-  display: block;
+  object-fit: cover; 
 }
 
-/* Responsivo (Celular) */
 @media (max-width: 768px) {
   .contato-card {
-    flex-direction: column; /* Um embaixo do outro */
+    flex-direction: column; 
   }
   .image-side {
-    height: 250px; /* Altura fixa da imagem no celular */
+    height: 250px; 
   }
 }
 
 .page-wrapper {
-  position: relative; /* OBRIGATÓRIO */
-  /* ... resto do CSS ... */
+  position: relative; 
+  
   padding-bottom: 80px;
 }
 
 .decoracao-baixo {
   position: absolute;
   bottom: 0;
-  right: 0; /* Ajuste conforme o Figma */
+  right: 0; 
   max-width: 200px;
   z-index: -1;
 }

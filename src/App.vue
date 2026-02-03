@@ -2,8 +2,6 @@
 import { RouterView, useRoute } from 'vue-router'
 import NavBar from './components/NavBar.vue'
 import TheFooter from './components/TheFooter.vue'
-
-// Imagens dos grãos no topo (esquerda e direita)
 import graosTopoEsq from '@/assets/img/background/GraosUpOFC.png'
 import graosTopoDir from '@/assets/img/background/GraosOFC.png'
 
@@ -13,7 +11,7 @@ const route = useRoute()
 <template>
   <div class="app-wrapper">
 
-    <!-- Grãos no topo: aparecem em TODAS AS PÁGINAS EXCETO a home -->
+    
     <img
       v-if="route.path !== '/'"
       :src="graosTopoEsq"
@@ -44,36 +42,33 @@ const route = useRoute()
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
-  background-color: #E6E2D9; /* cor de fundo principal do site */
+  background-color: #E6E2D9; 
 }
 
-/* ── GRÃOS DECORATIVOS NO TOPO ── */
+
 .bg-grain {
-  position: fixed;           /* fixed → fica preso na viewport, não rola */
+  position: fixed;          
   top: 0;
-  z-index: -2;               /* bem atrás de navbar, conteúdo e footer */
+  z-index: -2;              
   width: auto;
-  max-width: 220px;          /* tamanho inicial – ajuste aqui se quiser maior/menor */
-  pointer-events: none;      /* não interfere em cliques */
+  max-width: 220px;          
+  pointer-events: none;      
   user-select: none;
 }
 
 .grain-top-left {
   left: 0;
-  /* Se sobrar 1-5px na borda esquerda (devido a transparência ou scaling): */
-  /* margin-left: -15px; */   /* descomente para testar */
 }
 
 .grain-top-right {
   right: 0;
-  /* margin-right: -15px; */  /* descomente se necessário na direita */
 }
 
-/* Ajustes para telas menores */
+
 @media (max-width: 768px) {
   .bg-grain {
-    max-width: 140px;        /* menor no celular */
-    opacity: 0.75;           /* um pouco mais discreto (opcional) */
+    max-width: 140px;        
+    opacity: 0.75;        
   }
 }
 
