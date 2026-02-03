@@ -22,7 +22,7 @@ import { RouterLink } from 'vue-router'
 <style scoped>
 .navbar-wrapper {
   width: 100%;
-  padding-top: 15px; 
+  padding-top: 30px; 
   display: flex;
   justify-content: center; 
 }

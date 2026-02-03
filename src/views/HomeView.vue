@@ -48,7 +48,7 @@ import graosBaixo from '@/assets/img/background/GraoBottomHome.png'
   position: fixed;
   left: 0;
   z-index: 0;
-  width: 190px;          
+  width: 20px;          
   max-width: 12vw;          
   pointer-events: none;
   user-select: none;
@@ -77,12 +77,12 @@ import graosBaixo from '@/assets/img/background/GraoBottomHome.png'
   z-index: 2;
 }
 
-.text-side { width: 45%; padding-top: 15px; margin-left: 50px;}
+.text-side { width: 100%; padding-top: 15px}
 
 h1 {
   font-family: 'Unna', serif;
   font-weight: 700;
-  font-size: 3.2rem;
+  font-size: 3.5rem;
   color: #3E2723;
   margin-bottom: 20px;
   line-height: 1.1;
@@ -117,7 +117,7 @@ h1 {
 }
 
 .image-side {
-  width: 50%;
+  width: 130%;
   display: flex;
   justify-content: flex-end;
 
@@ -127,7 +127,7 @@ h1 {
   width: 85%;
   max-width: 600px;
   height: auto;
-  margin-right: 80px;
+  margin-right: 10px;
   border-radius: 20px 0 0 20px;
   display: block;
 }

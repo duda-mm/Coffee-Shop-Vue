@@ -20,7 +20,7 @@ defineProps({
       <div class="card-footer">
         <span class="card-price">{{ preco }}</span>
         
-        <button class="btn-pedir">Peça já o seu</button>
+        <button class="btn-pedir">PEÇA JÁ O SEU</button>
       </div>
     </div>
   </div>
@@ -29,7 +29,7 @@ defineProps({
 <style scoped>
 .card {
   background-color: #F3F3F3; 
-  border-radius: 15px; 
+  border-radius: 25px; 
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@ defineProps({
   color: #4B382A;
   font-size: 1.3rem;
   margin-bottom: 10px;
-  font-weight: bold;
+  font-family: 'Alata', sans-serif;
 }
 
 .card-desc {
@@ -63,6 +63,7 @@ defineProps({
   color: #666;
   margin-bottom: 20px;
   line-height: 1.4;
+  font-family: 'Alata', sans-serif;
 }
 
 
@@ -77,6 +78,7 @@ defineProps({
   font-weight: bold;
   font-size: 1.2rem;
   color: #4B382A;
+  font-family: 'Alata', sans-serif;
 }
 
 .btn-pedir {
@@ -89,9 +91,9 @@ defineProps({
   cursor: pointer;
   font-size: 0.9rem;
   transition: background 0.2s;
+  font-family: 'Alata', sans-serif;
 }
 
 .btn-pedir:hover {
-  background-color: #3a2b20; 
-}
+  background-color: #3a2b20;}
 </style>

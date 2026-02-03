@@ -35,8 +35,12 @@ const route = useRoute()
   </div>
 </template>
 
-<style scoped>
+<style>
+
 .app-wrapper {
+  background-image: url(assets/img/background/GraosUpOFC.png), url(assets/img/background/GraosOFC.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, top right;
   position: relative;
   min-height: 100vh;
   display: flex;

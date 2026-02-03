@@ -73,10 +73,13 @@ const listaCafes = [
 
 .grid {
   display: flex;
-  flex-wrap: wrap;
-  gap: 30px; 
+  flex-wrap: nowrap; /* Impede que os itens caiam para a linha de baixo */
+  gap: 20px;         /* Reduzi um pouco o gap para caber melhor em telas menores */
   justify-content: center;
+  align-items: stretch;
+  width: 100%;
 }
+
 .page-container {
   position: relative; 
   max-width: 1200px;
