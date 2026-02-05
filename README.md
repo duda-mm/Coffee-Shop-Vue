@@ -18,6 +18,24 @@ Este projeto foi desenvolvido com fins **educacionais e de portfólio**.
 - **HTML5**
 - **CSS3**
 
+📸 Preview
+
+[Projeto modelo no Figma](https://www.figma.com/design/1eivyVR3ZGI8b8frH3IRSt/Coffee-Shop-Vue?node-id=0-1&t=E7FRdJU11tU2VPkU-1)
+
+🎯 Objetivo
+
+Este projeto tem como objetivo reforçar conhecimentos em:
+
+- Componentização no Vue
+
+- Organização de código
+
+- Desenvolvimento de interfaces web
+
+📌 Observações
+
+Projeto fictício, sem fins comerciais.
+
 __________________________________________________________
 
 ## ⚙️ Como executar o projeto
@@ -36,21 +54,4 @@ npm run serve
 
 __________________________________________________________
 
-📸 Preview
-
-[Projeto modelo no Figma](https://www.figma.com/design/1eivyVR3ZGI8b8frH3IRSt/Coffee-Shop-Vue?node-id=0-1&t=E7FRdJU11tU2VPkU-1)
-
-🎯 Objetivo
-
-Este projeto tem como objetivo reforçar conhecimentos em:
-
-- Componentização no Vue
-
-- Organização de código
-
-- Desenvolvimento de interfaces web
-
-📌 Observações
-
-Projeto fictício, sem fins comerciais.
 
