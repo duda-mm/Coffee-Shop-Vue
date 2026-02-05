@@ -56,29 +56,25 @@ const listaDiversos = [
 <style scoped>
 
 .page-container {
+  position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 40px 20px 100px 20px;
 }
 
 .page-title {
   text-align: center;
   font-size: 2rem;
-  color: #4B382A;
+  color: #290902;
   margin-bottom: 40px;
 }
 
 .grid {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 30px;
   justify-content: center;
-}
-.page-container {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px 100px 20px;
+  overflow-x: auto; 
 }
 
 .decoracao-baixo {

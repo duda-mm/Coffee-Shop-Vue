@@ -3,8 +3,8 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <header class="navbar-wrapper">
-    <nav class="navbar-capsula">
+  <header>
+    <nav>
       
       <RouterLink to="/" class="nav-link">INÍCIO</RouterLink>
       <RouterLink to="/cafes" class="nav-link">CAFÉS</RouterLink>
@@ -20,14 +20,14 @@ import { RouterLink } from 'vue-router'
 </template>
 
 <style scoped>
-.navbar-wrapper {
+header {
   width: 100%;
   padding-top: 30px; 
   display: flex;
   justify-content: center; 
 }
 
-.navbar-capsula {
+nav {
   background-color: #D0CBBF; 
   border-radius: 50px;
   padding: 5px 10px 5px 40px; 

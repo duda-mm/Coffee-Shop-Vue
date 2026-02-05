@@ -38,9 +38,9 @@ const route = useRoute()
 <style>
 
 .app-wrapper {
-  background-image: url(assets/img/background/GraosUpOFC.png), url(assets/img/background/GraosOFC.png);
-  background-repeat: no-repeat, no-repeat;
-  background-position: top left, top right;
+  background-image: url(assets/img/background/GraosUpOFC.png), url(assets/img/background/GraosOFC.png), url(assets/img/background/GraosBottomCafe.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: top left, top right, bottom left;
   position: relative;
   min-height: 100vh;
   display: flex;

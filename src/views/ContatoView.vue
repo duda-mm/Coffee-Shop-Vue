@@ -27,14 +27,9 @@ function enviar() {
         </div>
 
         <form @submit.prevent="enviar">
-          <label>NOME:</label>
-          <input type="text" v-model="nome" placeholder="Seu nome">
-
-          <label>EMAIL:</label>
-          <input type="email" v-model="email" placeholder="Seu email">
-
-          <label>MENSAGEM:</label>
-          <textarea v-model="msg" rows="4" placeholder="Sua mensagem"></textarea>
+          <input type="text" v-model="nome" placeholder="NOME">
+          <input type="email" v-model="email" placeholder="EMAIL">
+          <textarea v-model="msg" rows="4" placeholder="MENSAGEM"></textarea>
 
           <button type="submit">ENVIAR</button>
         </form>
@@ -54,9 +49,8 @@ function enviar() {
 
 .contato-card {
   display: flex;
-  background-color: #fff; 
-  max-width: 1000px;
-  width: 100%;
+  background-color: #D0CBBF; 
+  max-width: 80rem;
   border-radius: 20px; 
   overflow: hidden; 
   box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
@@ -69,51 +63,46 @@ function enviar() {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 
 h2 {
-  color: #4B382A;
+  color: #290902;
   margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .info-text {
   margin-bottom: 30px;
-  color: #666;
-}
-
-
-label {
-  display: block;
-  margin-bottom: 5px;
-  color: #4B382A;
-  font-weight: bold;
+  color: #290902;
 }
 
 input, textarea {
-  width: 100%;
-  padding: 12px;
+  width: 80%;
+  padding: 15px;
+  font-size: 0.95em;
+  font-family: "Alata", sans-serif;
   margin-bottom: 15px;
   border: 1px solid #ccc;
-  border-radius: 8px;
-  background-color: #F9F9F9;
+  border-radius: 20px;
+  background-color: #E6E2D9;
 }
 
 button {
-  background-color: #4B382A;
-  color: white;
+  background-color: #4E2C09;
+  color: #E6E2D9;
   padding: 12px 30px;
   border: none;
-  border-radius: 8px;
+  border-radius: 20px;
   font-weight: bold;
   cursor: pointer;
-  width: 100%;
+  width: 30%;
+  margin-top: 1rem;
 }
 
 
 .image-side {
-  flex: 1; 
-  background-color: #eee;
+  flex: 1;
 }
 
 .image-side img {

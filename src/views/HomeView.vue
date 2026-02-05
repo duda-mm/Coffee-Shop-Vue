@@ -1,16 +1,11 @@
 <script setup>
 import { RouterLink } from 'vue-router'
 import homeImage from '@/assets/img/produtos/FotoCafeHome.png' 
-import graosTopo from '@/assets/img/background/GraosUpHome.png'
-import graosBaixo from '@/assets/img/background/GraoBottomHome.png'
+
 </script>
 
 <template>
   <div class="home-section">
-
-   
-    <img :src="graosTopo" class="grao grao-topo" alt="Grãos decorativos superior" />
-    <img :src="graosBaixo" class="grao grao-baixo" alt="Grãos decorativos inferior" />
 
     <div class="content-wrapper">
       <div class="text-side">
@@ -63,7 +58,6 @@ import graosBaixo from '@/assets/img/background/GraoBottomHome.png'
 
 }
 
-
 .content-wrapper {
   width: 100%;
   max-width: 1240px;
@@ -77,25 +71,24 @@ import graosBaixo from '@/assets/img/background/GraoBottomHome.png'
   z-index: 2;
 }
 
-.text-side { width: 100%; padding-top: 15px}
+.text-side { width: 150%; padding-top: 15px}
 
 h1 {
+  color: #290902;
   font-family: 'Unna', serif;
-  font-weight: 700;
-  font-size: 3.5rem;
-  color: #3E2723;
-  margin-bottom: 20px;
-  line-height: 1.1;
+  font-size: 3.5rem; 
+  line-height: 1;
+  margin-bottom: 25px;
+  font-weight: bold;
 }
 
 .subtitle {
   font-family: 'Alata', sans-serif;
-  font-size: 1.22rem;
+  font-size: 1.3rem;
   color: #000;
   font-weight: 550;
   margin-bottom: 30px;
-  max-width: 400px;
-
+  max-width: 30rem;
 }
 
 .btn-primary {
@@ -117,7 +110,7 @@ h1 {
 }
 
 .image-side {
-  width: 130%;
+  width: 195%;
   display: flex;
   justify-content: flex-end;
 

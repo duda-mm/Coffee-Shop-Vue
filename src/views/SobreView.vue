@@ -24,6 +24,8 @@ import imgSobre from '@/assets/img/produtos/CafeConjunto.png'
   align-items: center; 
   gap: 50px; 
   padding: 60px 0;
+  max-width: 100rem;
+  margin: 0 auto;
 }
 
 .col-img, .col-text {
@@ -31,22 +33,40 @@ import imgSobre from '@/assets/img/produtos/CafeConjunto.png'
 }
 
 .col-img img {
-  width: 100%;
+  width: 90%;
   border-radius: 20px; 
+  margin-left: 95px;
 }
 
 h2 {
-  color: #4B382A;
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+  color: #290902;
+  font-family: 'Unna', serif;
+  font-size: 4rem; 
+  line-height: 1;
+  margin-bottom: 25px;
+  font-weight: bold;
+  max-width: 30rem;
+  text-align: right;
 }
 
 p {
-  color: #555;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin-bottom: 15px;
+  color: #000;
+  font-size: 1.35rem; 
+  line-height: 1.4;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: 'Alata', sans-serif;
+  max-width: 30rem;
+  text-align: right;
 }
+
+.social {
+  display: block;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #290902;
+}
+
 
 
 @media (max-width: 768px) {

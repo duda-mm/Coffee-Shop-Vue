@@ -67,14 +67,14 @@ const listaCafes = [
 .page-title {
   text-align: center;
   font-size: 2rem;
-  color: #4B382A;
+  color: #290902;
   margin-bottom: 40px;
 }
 
 .grid {
   display: flex;
-  flex-wrap: nowrap; /* Impede que os itens caiam para a linha de baixo */
-  gap: 20px;         /* Reduzi um pouco o gap para caber melhor em telas menores */
+  flex-wrap: nowrap; 
+  gap: 20px;         
   justify-content: center;
   align-items: stretch;
   width: 100%;

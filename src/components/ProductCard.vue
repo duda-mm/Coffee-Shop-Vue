@@ -52,17 +52,9 @@ defineProps({
 }
 
 .card-title {
-  color: #4B382A;
+  color: #290902;
   font-size: 1.3rem;
   margin-bottom: 10px;
-  font-family: 'Alata', sans-serif;
-}
-
-.card-desc {
-  font-size: 0.9rem;
-  color: #666;
-  margin-bottom: 20px;
-  line-height: 1.4;
   font-family: 'Alata', sans-serif;
 }
 
@@ -77,13 +69,13 @@ defineProps({
 .card-price {
   font-weight: bold;
   font-size: 1.2rem;
-  color: #4B382A;
+  color: #290902;
   font-family: 'Alata', sans-serif;
 }
 
 .btn-pedir {
-  background-color: #4B382A; 
-  color: white;
+  background-color: #4E2C09; 
+  color: #E6E2D9;
   border: none;
   padding: 10px 20px;
   border-radius: 20px; 
