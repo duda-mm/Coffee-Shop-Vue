@@ -18,11 +18,11 @@ Este projeto foi desenvolvido com fins **educacionais e de portfólio**.
 - **HTML5**
 - **CSS3**
 
-📸 Preview
+## 📸 Preview
 
 [Projeto modelo no Figma](https://www.figma.com/design/1eivyVR3ZGI8b8frH3IRSt/Coffee-Shop-Vue?node-id=0-1&t=E7FRdJU11tU2VPkU-1)
 
-🎯 Objetivo
+## 🎯 Objetivo
 
 Este projeto tem como objetivo reforçar conhecimentos em:
 
@@ -32,11 +32,10 @@ Este projeto tem como objetivo reforçar conhecimentos em:
 
 - Desenvolvimento de interfaces web
 
-📌 Observações
+## 📌 Observações
 
 Projeto fictício, sem fins comerciais.
 
-__________________________________________________________
 
 ## ⚙️ Como executar o projeto
 ```bash
@@ -52,6 +51,5 @@ npm install
 # Execute o projeto
 npm run serve
 
-__________________________________________________________
 
 
